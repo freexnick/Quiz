@@ -1,0 +1,24 @@
+.GameOver {
+    padding: 35px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.24);
+
+    h1 {
+        font-weight: 200;
+        font-size: 40px;
+    }
+    .score {
+        margin-top: 20px;
+        font-size: 130px;
+        font-weight: 600;
+    }
+    .playAgain {
+        margin-top: 20px;
+        padding: 6px 25px;
+        font-weight: 300;
+        text-transform: none;
+    }
+}
