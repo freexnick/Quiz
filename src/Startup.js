@@ -89,7 +89,7 @@ const Startup = (props) => {
     }
   };
 
-  // connection to API
+  //  API
   const makeURL = () => {
     let url = "https://opentdb.com/api.php?";
     url += `&amount=${numQuestions}`;
@@ -106,7 +106,7 @@ const Startup = (props) => {
         <div className="inputArea">
           <label>Number of Questions: </label>
           <input
-            type="text"
+            type="number"
             onChange={updateSettings}
             name="numQuestions"
             value={numQuestions}
